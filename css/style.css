@@ -1,0 +1,144 @@
+@font-face {
+    font-family: audi;
+    src: url(../fonts/Audi/AudiType-ExtendedBold_4.03.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+    font-family: audi;
+    background-color: rgb(43, 41, 41);
+}
+
+.main-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-menu, a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    margin-left: 20px;  
+}
+
+.main-menu a:hover {
+    color: brown;
+}
+
+.banner-1 {
+    width: 100%;
+    height: 300px;
+    background: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 75%;
+}
+
+.banner-2 {
+    width: 150px;
+    height: 100px;
+    background: url(../img/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-family: audi;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.c1 {
+    width: 33%;
+}
+.c2 {
+    width: 33%;
+}
+.c3 {
+    width: 33%;
+}
+
+.btn {
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+}
+
+.form {
+    width: 300px;
+    font-family: audi;
+}
+
+.form textarea {
+    margin-top: 10px;
+}
+
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-button {
+    font-family: audi;
+    border: none;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.fa-brands:hover {
+    color: brown;
+}
+
+.copyrights {
+    text-align: center;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-family: audi;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: audi;
+    margin-top: 10px;
+}
+
+.models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+    font-family: audi;
+}
+
+.line {
+    border-top: 1px solid red;
+}
