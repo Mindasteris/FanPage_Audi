@@ -20,5 +20,5 @@
                 </div>
         </div>
     </footer>
-    <div class="copyrights"><span>© All Rights Reserved. 2022</span></div>
+    <div class="copyright"><span>© All Rights Reserved. 2022</span></div>
 </div>

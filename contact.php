@@ -44,8 +44,6 @@
                 <input type="submit" value="SEND" name="submit" class="btn btn-success contact-button"></input>
             </form>
         </div>
-
-        <img src="img/map.png" alt="map">
         
 </div>
     </div>

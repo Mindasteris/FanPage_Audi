@@ -86,6 +86,7 @@ footer a {
 .form {
     width: 300px;
     font-family: audi;
+    margin: 0 auto;
 }
 
 .form textarea {
@@ -110,7 +111,7 @@ footer a {
     color: brown;
 }
 
-.copyrights {
+.copyright {
     text-align: center;
     background-color: rgb(43, 41, 41);
     color: white;
@@ -141,4 +142,29 @@ figcaption {
 
 .line {
     border-top: 1px solid red;
+}
+
+.hamburger {
+    margin-left: 80%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px)
+{
+    .menu li, a {
+        text-align: center;
+    }
+    .audi-logo {
+        padding: 20px;
+    }
+    footer {
+        display: block;
+    }
+    .c1, .c2, .c3 {
+        width: 100%;
+        padding: 10px;
+    }
+    .copyright {
+        padding: 10px;
+    }
 }
